@@ -1,5 +1,7 @@
 # RPI Go Bot
 
+![woring project](/assets/working_project.png)
+
 ## About
 
 Prototype of controlling Black Gladiator - caterpillar chassis with Iduino L298N motor driver, Raspberry Pi Zero W and L7805 stabilizer for powering Pi Zero. Whole project is powered by 6 AA batteries. Controller By Dualshock 3. And I know, that Pi Zero is obviusly overkill for this project. Software is written in Golang.
