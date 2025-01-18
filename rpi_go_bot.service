@@ -1,0 +1,14 @@
+[Unit]
+Description=robot controlling service
+After=bluetooth.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+ExecStart=/home/{username}/rpi_go_bot/rpi_go_bot
+
+[Install]
+WantedBy=multi-user.target
